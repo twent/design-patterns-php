@@ -1,0 +1,17 @@
+{
+    "name": "twent/design-patterns",
+    "description": "Learn design patterns",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Twent\\DesignPatterns\\": "Patterns/"
+        }
+    },
+    "authors": [
+        {
+            "name": "twent",
+            "email": "i@twent.ru"
+        }
+    ],
+    "require": {}
+}
