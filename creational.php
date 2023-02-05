@@ -8,6 +8,7 @@ use Twent\DesignPatterns\Creational\Factory\EmployeeFactory;
 use Twent\DesignPatterns\Creational\FactoryMethod\DesignerFactory;
 use Twent\DesignPatterns\Creational\FactoryMethod\WebDeveloperFactory;
 use Twent\DesignPatterns\Creational\Singleton\DatabaseConnection;
+use Twent\DesignPatterns\Creational\StaticFactory\EmployeeFactory as StaticEmployeeFactory;
 
 // 1. Singleton
 $connection = DatabaseConnection::getInstance();
@@ -25,3 +26,7 @@ $webDeveloper = WebDeveloperFactory::make();
 $designer = DesignerFactory::make();
 $webDeveloper->work();
 $designer->work();
+
+// 4. Static Factory
+$designer2 = StaticEmployeeFactory::make('designer');
+$designer2?->work();

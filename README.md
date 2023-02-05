@@ -6,3 +6,4 @@ I. Creational / Пораждающие:
    1. Singleton
    2. Factory
    3. Factory method
+   4. Static Factory
