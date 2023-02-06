@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<ruleset  name="PHP_CodeSniffer">
+    <description>PHPCS configuration file.</description>
+    <!-- check all files in this directories-->
+    <file>Patterns</file>
+    <file>.</file>
+
+    <!-- exclude directories from the violation check-->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <!-- ignore warnings and display ERRORS only -->
+    <arg value="np"/>
+
+    <rule ref="PSR1"/>
+
+    <rule ref="PSR12"/>
+</ruleset>
