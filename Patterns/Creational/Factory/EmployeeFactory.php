@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Patterns\Creational\Factory;
+namespace Twent\DesignPatterns\Creational\Factory;
 
 class EmployeeFactory
 {

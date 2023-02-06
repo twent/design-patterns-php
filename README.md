@@ -8,4 +8,3 @@ I. Creational / Пораждающие:
    3. Factory method
    4. Static Factory
    5. Abstract Factory
-   6. Builder

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Patterns\Creational\FactoryMethod;
+namespace Twent\DesignPatterns\Creational\FactoryMethod;
 
 final class Designer implements EmployeeContract
 {
