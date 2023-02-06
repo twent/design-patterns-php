@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Twent\DesignPatterns\Creational\FactoryMethod;
+namespace Patterns\Creational\FactoryMethod;
 
 final class WebDeveloper implements EmployeeContract
 {

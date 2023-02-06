@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Twent\DesignPatterns\Creational\AbstractFactory;
+namespace Patterns\Creational\AbstractFactory;
 
 final class FulltimeDesigner implements DesignerContract
 {

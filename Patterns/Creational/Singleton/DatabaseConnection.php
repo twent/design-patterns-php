@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Twent\DesignPatterns\Creational\Singleton;
+namespace Patterns\Creational\Singleton;
 
 final class DatabaseConnection
 {

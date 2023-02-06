@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Twent\DesignPatterns\Creational\AbstractFactory;
+namespace Patterns\Creational\AbstractFactory;
 
-use Twent\DesignPatterns\Creational\FactoryMethod\EmployeeContract;
+use Patterns\Creational\FactoryMethod\EmployeeContract;
 
 interface DesignerContract extends EmployeeContract
 {
