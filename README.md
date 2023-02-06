@@ -7,3 +7,4 @@ I. Creational / Пораждающие:
    2. Factory
    3. Factory method
    4. Static Factory
+   5. Abstract Factory
