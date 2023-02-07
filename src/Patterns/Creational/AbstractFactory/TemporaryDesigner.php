@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\AbstractFactory;
 
 final class TemporaryDesigner implements DesignerContract
 {
-    public function work()
+    public function work(): string
     {
-        echo "I'm designing as temporary employee..." . PHP_EOL;
+        return "I'm designing as temporary employee...";
     }
 }

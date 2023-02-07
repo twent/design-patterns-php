@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\AbstractFactory;
 
 final class TemporaryWebDeveloper implements WebDeveloperContract
 {
-    public function work()
+    public function work(): string
     {
-        echo "I'm web developing as temporary employee..." . PHP_EOL;
+        return "I'm web developing as temporary employee...";
     }
 }

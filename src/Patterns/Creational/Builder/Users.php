@@ -6,9 +6,9 @@ namespace Twent\DesignPatterns\Creational\Builder;
 
 final class Users
 {
-    public static function getOldest(SqlQueryBuilder $queryBuilder): void
+    public static function getOldest(SqlQueryBuilder $queryBuilder): string
     {
-        echo $queryBuilder
+        return $queryBuilder
             ->select('users', ['id', 'login', 'email', 'birth_date'])
             ->where('id', '5', '<')
             ->limit(5)

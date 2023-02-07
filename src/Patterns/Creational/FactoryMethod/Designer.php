@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\FactoryMethod;
 
 final class Designer implements EmployeeContract
 {
-    public function work()
+    public function work(): string
     {
-        echo "I'm making a new design... " . PHP_EOL;
+        return "I'm making a new design... ";
     }
 }

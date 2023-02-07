@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\AbstractFactory;
 
 final class FulltimeWebDeveloper implements WebDeveloperContract
 {
-    public function work()
+    public function work(): string
     {
-        echo "I'm web developing as fulltime employee..." . PHP_EOL;
+        return "I'm web developing as fulltime employee...";
     }
 }

@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\FactoryMethod;
 
 final class WebDeveloper implements EmployeeContract
 {
-    public function work()
+    public function work(): string
     {
-        print "I'm building a new API..." . PHP_EOL;
+        return "I'm building a new API...";
     }
 }

@@ -6,8 +6,8 @@ namespace Twent\DesignPatterns\Creational\AbstractFactory;
 
 final class FulltimeDesigner implements DesignerContract
 {
-    public function work()
+    public function work(): string
     {
-        echo "I'm web designing as fulltime employee..." . PHP_EOL;
+        return "I'm web designing as fulltime employee...";
     }
 }

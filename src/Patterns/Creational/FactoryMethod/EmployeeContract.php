@@ -6,5 +6,5 @@ namespace Twent\DesignPatterns\Creational\FactoryMethod;
 
 interface EmployeeContract
 {
-    public function work();
+    public function work(): string;
 }
