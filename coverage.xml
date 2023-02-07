@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675780532">
-  <project timestamp="1675780532">
+<coverage generated="1675780686">
+  <project timestamp="1675780686">
     <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Creational/AbstractFactory/DesignerContract.php">
       <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
