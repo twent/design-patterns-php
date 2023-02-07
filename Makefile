@@ -5,7 +5,10 @@ install:
 	composer install
 
 format:
-	phpcs && phpcbf
+	vendor/bin/phpcs && vendor/bin/phpcbf
 
 test:
-	./vendor/bin/phpunit --testdox --no-progress
+	vendor/bin/phpunit --testdox --no-progress
+
+coverage:
+	XDEBUG_MODE=coverage vendor/bin/phpunit --testdox --no-progress --coverage-text
