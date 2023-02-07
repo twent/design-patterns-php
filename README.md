@@ -1,6 +1,6 @@
 # Design patterns
 [![Stable Version](https://img.shields.io/packagist/v/twent/design-patterns?label=stable)](https://packagist.org/packages/twent/design-patterns)
-![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/twent/design-patterns/php)
+[![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/twent/design-patterns/php)](https://packagist.org/packages/twent/design-patterns)
 [![CI Status](https://github.com/twent/design-patterns-php/actions/workflows/build.yml/badge.svg)](https://github.com/twent/design-patterns-php/actions)
 [![Tests Coverage](https://raw.githubusercontent.com/twent/design-patterns-php/master/badge.svg)](https://github.com/twent/design-patterns-php/actions)
 
