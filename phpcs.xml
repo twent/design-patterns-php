@@ -3,7 +3,8 @@
 <ruleset  name="PHP_CodeSniffer">
     <description>PHPCS configuration file.</description>
     <!-- check all files in this directories-->
-    <file>Patterns</file>
+    <file>src/Patterns</file>
+    <file>tests</file>
     <file>.</file>
 
     <!-- exclude directories from the violation check-->
