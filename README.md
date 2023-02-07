@@ -1,4 +1,5 @@
 # Design patterns
+[![Tests Coverage](https://github.com/twent/design-patterns-php/blob/main/badge.svg)](https://github.com/twent/design-patterns-php/actions)
 
 This project has been created for learning design patterns with PHP.
 
