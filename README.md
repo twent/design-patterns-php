@@ -21,3 +21,4 @@ I. Creational / Пораждающие:
    5. Abstract Factory
    6. Builder
    7. Prototype
+   8. Pool
