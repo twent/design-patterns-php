@@ -6,8 +6,11 @@
 
 This project has been created for learning design patterns with PHP.
 
-How to run:
-1. Clone this repo
+How to use:
+1. Run `composer require twent/design-patterns:<stable-version-number or dev-master>`
+
+How to dev:
+1. Clone this repo or run `composer create-project twent/design-patterns:dev-master`
 2. Run `make && make test`
 
 I. Creational / Пораждающие:
