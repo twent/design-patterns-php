@@ -20,3 +20,4 @@ I. Creational / Пораждающие:
    4. Static Factory
    5. Abstract Factory
    6. Builder
+   7. Prototype
