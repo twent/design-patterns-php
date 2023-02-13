@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1675933866">
-  <project timestamp="1675933866">
+<coverage generated="1676302262">
+  <project timestamp="1676302262">
     <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Creational/AbstractFactory/DesignerContract.php">
       <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
@@ -321,6 +321,60 @@
     <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Creational/StaticFactory/EmployeeType.php">
       <metrics loc="16" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
+    <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Structural/DependencyInjection/HttpMethod.php">
+      <metrics loc="20" ncloc="20" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Structural/DependencyInjection/Route.php">
+      <class name="Twent\DesignPatterns\Structural\DependencyInjection\Route" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="12" type="stmt" count="1"/>
+      <line num="14" type="method" name="getConfig" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="18" type="stmt" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="22" type="method" name="setConfig" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <metrics loc="27" ncloc="27" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="5" elements="9" coveredelements="7"/>
+    </file>
+    <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Structural/DependencyInjection/RouteConfig.php">
+      <class name="Twent\DesignPatterns\Structural\DependencyInjection\RouteConfig" namespace="global">
+        <metrics complexity="12" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="13" elements="30" coveredelements="18"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="4" crap="4" count="1"/>
+      <line num="15" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="34" type="method" name="getMethod" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="39" type="method" name="setMethod" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="45" type="method" name="getPath" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="50" type="method" name="setPath" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <line num="56" type="method" name="getAction" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="61" type="method" name="setAction" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="63" type="stmt" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="67" type="method" name="getName" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="69" type="stmt" count="1"/>
+      <line num="72" type="method" name="setName" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="75" type="stmt" count="0"/>
+      <metrics loc="78" ncloc="78" classes="1" methods="9" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="13" elements="30" coveredelements="18"/>
+    </file>
     <file name="/home/runner/work/design-patterns-php/design-patterns-php/src/Patterns/Utils/Traits/EnumToArray.php">
       <class name="Twent\DesignPatterns\Utils\Traits\EnumToArray" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
@@ -341,6 +395,6 @@
       <line num="11" type="stmt" count="3"/>
       <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <metrics files="36" loc="782" ncloc="770" classes="25" methods="57" coveredmethods="47" conditionals="0" coveredconditionals="0" statements="100" coveredstatements="90" elements="157" coveredelements="137"/>
+    <metrics files="39" loc="907" ncloc="895" classes="27" methods="69" coveredmethods="54" conditionals="0" coveredconditionals="0" statements="127" coveredstatements="108" elements="196" coveredelements="162"/>
   </project>
 </coverage>
