@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3a224806c0632542352e5c84999a432",
+    "content-hash": "a4633f215fbf11262dc5821a85a08539",
     "packages": [],
     "packages-dev": [
         {
@@ -553,16 +553,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5f4a775285c6401693cee39876f3ba764d42cb24"
+                "reference": "a6f61c5629dd95db79af72f1e94d56702187479a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5f4a775285c6401693cee39876f3ba764d42cb24",
-                "reference": "5f4a775285c6401693cee39876f3ba764d42cb24",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a6f61c5629dd95db79af72f1e94d56702187479a",
+                "reference": "a6f61c5629dd95db79af72f1e94d56702187479a",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +633,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.0.5"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.0.7"
             },
             "funding": [
                 {
@@ -649,7 +649,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-07T06:06:01+00:00"
+            "time": "2023-02-08T15:16:31+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1843,7 +1843,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": ">=8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

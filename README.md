@@ -22,3 +22,5 @@ I. Creational / Пораждающие:
    6. Builder
    7. Prototype
    8. Pool
+II. Structural / Структурные
+   1. Dependency Injection
