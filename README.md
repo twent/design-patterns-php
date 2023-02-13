@@ -13,7 +13,8 @@ How to dev:
 1. Clone this repo or run `composer create-project twent/design-patterns:dev-master`
 2. Run `make && make test`
 
-I. Creational / Пораждающие:
+## Design patterns list
+1. Creational / Пораждающие:
    1. Singleton
    2. Factory
    3. Factory method
@@ -22,5 +23,5 @@ I. Creational / Пораждающие:
    6. Builder
    7. Prototype
    8. Pool
-II. Structural / Структурные
+2. Structural / Структурные
    1. Dependency Injection
