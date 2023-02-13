@@ -13,7 +13,7 @@ final class DependencyInjectionTest extends TestCase
 {
     public function testDependencyInjectionIsWorks(): void
     {
-        $config = new RouteConfig(HttpMethod::Get->value, '', $action = 'HomeController@index');
+        $config = new RouteConfig(HttpMethod::Get, '', $action = 'HomeController@index');
         $route = new Route($config);
         $routeConfigArray = explode('|', str_replace(' ', '', $route->getConfig()));
 
@@ -23,7 +23,7 @@ final class DependencyInjectionTest extends TestCase
         $this->assertSame('index', $routeConfigArray[3]);
 
         $config2 = new RouteConfig(
-            HttpMethod::Post->value,
+            HttpMethod::Post,
             '/users/create/',
             $action2 = 'UsersController@create'
         );

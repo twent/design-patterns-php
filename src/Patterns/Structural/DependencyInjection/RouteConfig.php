@@ -7,13 +7,11 @@ namespace Twent\DesignPatterns\Structural\DependencyInjection;
 final class RouteConfig
 {
     public function __construct(
-        private string $method,
+        private HttpMethod $method,
         private string $path,
         private string $action,
         private ?string $name = null,
     ) {
-        $this->method = mb_strtoupper($this->method);
-
         $this->path = mb_strtolower(rtrim($this->path, '/'));
 
         if (! str_starts_with($this->path, '/')) {
@@ -33,10 +31,10 @@ final class RouteConfig
 
     public function getMethod(): string
     {
-        return $this->method;
+        return $this->method->value;
     }
 
-    public function setMethod(string $method): RouteConfig
+    public function setMethod(HttpMethod $method): RouteConfig
     {
         $this->method = $method;
         return $this;
