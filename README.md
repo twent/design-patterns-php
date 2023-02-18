@@ -25,3 +25,4 @@ How to dev:
    8. Pool
 2. Structural / Структурные
    1. Dependency Injection
+   2. Registry
