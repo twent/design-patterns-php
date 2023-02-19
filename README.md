@@ -26,3 +26,4 @@ How to dev:
 2. Structural / Структурные
    1. Dependency Injection
    2. Registry
+   3. Composite
