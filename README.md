@@ -27,3 +27,4 @@ How to dev:
    1. Dependency Injection
    2. Registry
    3. Composite
+   4. Adapter / Wrapper
