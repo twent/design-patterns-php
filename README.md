@@ -29,3 +29,4 @@ How to dev:
    3. Composite
    4. Adapter / Wrapper
    5. Bridge
+   6. Data mapper
