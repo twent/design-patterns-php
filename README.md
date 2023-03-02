@@ -28,3 +28,4 @@ How to dev:
    2. Registry
    3. Composite
    4. Adapter / Wrapper
+   5. Bridge
