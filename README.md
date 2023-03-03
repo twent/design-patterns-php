@@ -30,3 +30,4 @@ How to dev:
    4. Adapter / Wrapper
    5. Bridge
    6. Data mapper
+   7. Decorator
