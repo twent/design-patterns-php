@@ -31,3 +31,4 @@ How to dev:
    5. Bridge
    6. Data mapper
    7. Decorator
+   8. Facade
