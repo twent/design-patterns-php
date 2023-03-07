@@ -32,3 +32,5 @@ How to dev:
    6. Data mapper
    7. Decorator
    8. Facade
+   9. Fluent Interface
+   10. Flyweight
