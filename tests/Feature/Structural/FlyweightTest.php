@@ -10,8 +10,6 @@ use Twent\DesignPatterns\Structural\Flyweight\MailFactory;
 use Twent\DesignPatterns\Structural\Flyweight\MailType;
 use Twent\DesignPatterns\Structural\Flyweight\PersonalMail;
 
-use function PHPUnit\Framework\isInstanceOf;
-
 final class FlyweightTest extends TestCase
 {
     public function testFlyweightPatternWorks(): void
