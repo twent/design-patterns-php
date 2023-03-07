@@ -34,3 +34,4 @@ How to dev:
    8. Facade
    9. Fluent Interface
    10. Flyweight
+   11. Proxy
